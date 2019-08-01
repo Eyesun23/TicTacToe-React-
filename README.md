@@ -1,7 +1,7 @@
 ## Tic Tac Toe
 A React web application that implements a customizable NxN game of Tic Tac Toe.
 
-##Features:
+## Features:
 * Set a custom NxN size of the board.
 * Scorecard to keep track of X & O score.
 * Keep track of whose turn it is.
