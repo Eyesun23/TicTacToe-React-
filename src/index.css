@@ -1,0 +1,109 @@
+body {
+	font: 14px;
+	margin: 40px;
+	margin-top: 80px;
+	background: linear-gradient(to right, #ccffff 11%, #ffffff 82%);
+}
+
+h1 {
+	margin-left: 210px;
+	font: 50px;
+	font-family: 'Titillium Web', sans-serif;
+}
+
+
+ol, ul {
+	padding-left: 0px;
+}
+
+ul li {
+	list-style-type: none;
+}
+
+#dimension-label {
+	font-family: 'Titillium Web', sans-serif;
+
+}
+
+#dimension {
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+#reset {
+  border-radius: 6px;
+	margin-top: 10px;
+  padding:5px 10px;
+	font-size: 15px;
+  width: 100px;
+  cursor: pointer;
+	background-color: #0E1A2A;
+	color: #fff;
+}
+
+#reset:hover
+	{
+		background-color: white;
+		color: black;
+	}
+
+.board-row:after {
+	clear: both;
+	content: "";
+	display: table;
+}
+
+.square {
+	background: #fff;
+	border: 2px solid #66ccff;
+	float: left;
+	font-size: 44px;
+	font-weight: bold;
+	line-height: 64px;
+	height: 64px;
+	margin-right: -1px;
+	margin-top: -1px;
+	padding: 0;
+	text-align: center;
+	width: 64px;
+	font-family: 'Indie Flower', cursive;
+}
+
+.square:focus {
+	outline: none;
+}
+
+.square:hover {
+	background: #ccffff;
+}
+
+.game {
+	display: flex;
+	flex-direction: row;
+}
+
+#status {
+	margin-left: 50px;
+	padding-bottom: 30px;
+	font-size: 20px;
+	font-family: monospace;
+}
+
+.score-info {
+	margin-left: 650px;
+	margin-top: 70px;
+	position: absolute;
+
+}
+
+.score-card {
+	width: 160px;
+  box-shadow: 0 10px 100px 0 rgba(0, 0, 0, 0.2), 0 5px 20px 0 rgba(0, 0, 0, 0.2);
+  text-align: center;
+	padding: 10px;
+	font-size: 20px;
+	margin-left: 50px;
+	display: inline-block;
+  flex-shrink: 10;
+	font-family: 'Titillium Web', monospace;
+}
